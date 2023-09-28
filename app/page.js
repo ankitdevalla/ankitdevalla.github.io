@@ -40,7 +40,7 @@ export default function Home() {
             <h3 className='text-xl py-5'>Full Stack Developer and Software Engineer</h3>
             <p className='text-md py-2 leading-5 text-gray-600'>
               Hi! I'm a student at UT Austin studying CS and Math. I'm interested in <br />
-              machine learning, Natural Language Processing, and software engineering.<br />
+              Machine learning, Natural Language Processing, and Software Engineering.<br />
               Here are my links!
             </p>
           </div>
