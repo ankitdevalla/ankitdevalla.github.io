@@ -1,7 +1,7 @@
 'use client'
 import Head from 'next/head';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import {AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
+import {AiFillLinkedin, AiFillGithub, AiFillMail, AiFillBook, AiFillFile } from 'react-icons/ai';
 import Image from 'next/image';
 import avatar from '../public/avatar.jpg';
 import argo from '../public/argo.png';
@@ -53,6 +53,9 @@ export default function Home() {
               </a>
               <a href='https://github.com/ankitdevalla'>
                 <AiFillGithub className='text-4xl m-4' />
+              </a>
+              <a href = 'https://docs.google.com/document/d/19W-2Omghhx8s_tD5q0sNNCOZRU5XWq641uwVm1SjBv0/edit?usp=sharing'>
+                <AiFillFile className='text-4xl m-4' />
               </a>
             </div>
           <div className='relative mx-auto bg-gradient-to-b from-blue-300 rounded-full w-80 h-80 mt-20 overflow-hidden'>
