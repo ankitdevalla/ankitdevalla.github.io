@@ -23,7 +23,7 @@ export default function Home() {
       <Head>
         <title>Ankit Devalla Portfolio</title>
         <meta name="description" content="Ankit Devalla's Website"></meta>
-        {/* <link rel="icon" href="../public/avatar.jpg" /> */}
+        <link rel="icon" href="/avatar.jpg" />
       </Head>
       <main className='dark:bg-gradient-dark bg-gradient-light'>
         <section className='min-h-screen transition-opacity ease-in duration-700 opacity-0' >
