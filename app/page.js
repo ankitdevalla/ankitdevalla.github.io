@@ -6,7 +6,7 @@ import Image from 'next/image';
 import avatar from '../public/avatar.jpg';
 import { useEffect, useState } from 'react';
 import Internships from './internships';
-import Projects from './Projects';
+import Projects from './projects';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
