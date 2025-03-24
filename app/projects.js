@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import bc from '../public/bc.png';
+import mm from '../public/mm.webp';
 import vet from '../public/vet.jpg';
 import logo2 from '../public/logo2.webp';
 
@@ -18,17 +18,22 @@ export default function Projects() {
         <div className='text-center shadow-lg p-10 rounded-xl hover:scale-105 transition-transform duration-300 bg-white/30 dark:bg-black/30 backdrop-blur-sm'>
           <div className="flex flex-col items-center">
             <div className="flex justify-center items-center p-4 hover:rotate-3 transition-transform">
-              <Image src={bc} width={250} height={250} className="rounded-lg" />
+              <Image src={mm} width={300} height={250} className="rounded-lg" />
             </div>
-            <h3 className='text-xl font-bold pt-4 pb-2 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent'>
-              Breast Cancer Predictor
-            </h3>
+            <a href="https://bracketbrain.streamlit.app" target="_blank" rel="noopener noreferrer">
+              <h3 className='text-xl font-bold pt-4 pb-2 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent'>
+                BracketBrain
+              </h3>
+            </a>
             <ul className="list-disc list-inside mt-2 space-y-4 text-left text-gray-600 dark:text-gray-400">
               <li>
-                Developed and implemented machine learning models (Random Forest, Support Vector Machine, Neural Networks) for breast cancer classification with an accuracy of 98.25% using a dataset of 569 records, leveraging Python libraries like scikit-learn and performing hyperparameter tuning via GridSearchCV.
+                Developed a NCAA tournament (March Madness) prediction platform serving 1,800+ users, integrating live betting odds through The Odds API and deploying with Streamlit on Google Cloud Platform.
               </li>
               <li>
-                Conducted data preprocessing, feature engineering, and outlier detection using PCA and IsolationForest, resulting in improved model performance and insights into the most predictive features for malignant and benign tumors.
+                Implemented machine learning algorithms including XGBoost and Random Forests to predict tournament outcomes with up to 76% accuracy, using a feature extraction pipeline processing 15+ metrics (KenPom, Torvik, NET) for 350+ teams to identify performance indicators.
+              </li>
+              <li>
+              Created automated betting edge detection system comparing model predictions against market odds, calculating expected value and identifying statistically significant discrepancies.
               </li>
             </ul>
           </div>
@@ -59,7 +64,7 @@ export default function Projects() {
         <div className='text-center shadow-lg p-10 rounded-xl hover:scale-105 transition-transform duration-300 bg-white/30 dark:bg-black/30 backdrop-blur-sm'>
           <div className="flex flex-col items-center">
             <div className="flex justify-center items-center p-4 hover:rotate-3 transition-transform">
-              <Image src={vet} width={250} height={250} className="rounded-lg" />
+              <Image src={vet} width={300} height={250} className="rounded-lg" />
             </div>
             <h3 className='text-xl font-bold pt-4 pb-2 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent'>
               VetAssist
