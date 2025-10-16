@@ -13,7 +13,7 @@ export default function Internships() {
           My previous internships have focused on <span className='text-blue-500 font-semibold'>full stack development</span> and <span className='text-purple-500 font-semibold'>machine learning</span>.
         </p>
       </div>
-      <div className='lg:grid lg:grid-cols-2 lg:gap-10 my-10 space-y-10 lg:space-y-0'>
+  <div className='lg:grid lg:grid-cols-3 lg:gap-10 my-10 space-y-10 lg:space-y-0'>
         <div className='text-center shadow-lg p-10 rounded-xl hover:scale-105 transition-transform duration-300 bg-white/30 dark:bg-black/30 backdrop-blur-sm'>
           <div className="flex flex-col items-center">
             <div className="flex justify-center items-center p-4 hover:rotate-3 transition-transform">
@@ -58,6 +58,25 @@ export default function Internships() {
               <li>
                 Implemented a robust backend pipeline using repository, service, controller, and view to structure the web interface, adhering to best practices in inheritance and interface design.
               </li>
+            </ul>
+          </div>
+        </div>
+        <div className='text-center shadow-lg p-10 rounded-xl hover:scale-105 transition-transform duration-300 bg-white/30 dark:bg-black/30 backdrop-blur-sm'>
+          <div className="flex flex-col items-center">
+            <div className="flex justify-center items-center p-4 hover:rotate-3 transition-transform">
+              <Image src="/js.jpeg" width={250} height={250} className="rounded-lg" />
+            </div>
+            <h3 className='text-xl font-bold pt-4 pb-2 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent'>
+              Jane Street
+            </h3>
+            <p className='text-gray-600 dark:text-gray-400 font-medium mb-4'>TDOE Intern</p>
+            <ul className="list-disc list-inside mt-2 space-y-4 text-left text-gray-600 dark:text-gray-400">
+              <li>Designed and implemented a Python-based data pipeline that ingested and transformed live Bloomberg trade data, significantly accelerating insight delivery by integrating with an OCaml-based UI, reducing manual desk time by 90%.
+</li>
+              <li>Implemented an OCaml pipe-based streaming service to ingest live trade data and propagate updates to heterogeneous systems using structured, schema-driven payloads.
+</li>
+              <li>Attended classes on market making concepts and worked with a bloomberg terminal all summer long.
+</li>
             </ul>
           </div>
         </div>
