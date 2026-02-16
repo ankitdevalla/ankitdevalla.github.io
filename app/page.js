@@ -121,22 +121,20 @@ export default function Home() {
             </div>
 
             <div className="flex items-center gap-8">
-              <div className="relative h-60 w-60 overflow-hidden rounded-3xl border border-[#232835] float-slow">
+              <div className="relative h-32 w-32 overflow-hidden rounded-3xl border border-[#232835] float-slow sm:h-40 sm:w-40 md:h-48 md:w-48 lg:h-60 lg:w-60">
                 <Image
                   src={ad}
                   alt="Ankit Devalla"
                   fill
-                  sizes="160px"
                   className="object-cover"
                 />
               </div>
               <div className="flex items-center gap-4 rounded-2xl border border-[#232835] bg-[#12151b] px-5 py-4">
-                <div className="relative h-20 w-20 overflow-hidden rounded-2xl border border-[#232835] bg-white">
+                <div className="relative h-10 w-10 overflow-hidden rounded-2xl border border-[#232835] bg-white sm:h-12 sm:w-12 md:h-14 md:w-14 lg:h-20 lg:w-20">
                   <Image
                     src={openai}
                     alt="OpenAI"
                     fill
-                    sizes="56px"
                     className="object-contain p-1.5"
                   />
                 </div>
