@@ -23,7 +23,7 @@ const experiences = [
     role: 'Software Engineer',
     period: 'Current',
     logo: openai,
-    highlight: 'Building reliable, human-centered systems.',
+    highlight: 'Working on search and answers in chatgpt',
   },
   {
     id: 'jane',
